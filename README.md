@@ -55,19 +55,16 @@
      DB_CONNECTION=mysql
      DB_HOST=mysql
      DB_PORT=3306
-     DB_DATABASE=laravel
-     DB_USERNAME=root
-     DB_PASSWORD=root_password
+     DB_DATABASE=laravel_db
+     DB_USERNAME=laravel
+     DB_PASSWORD=password
      ```
 
    - Затем вернитесь к основному каталогу и выполните миграции:
 
      ```bash
-     docker-compose run --rm artisan migrate
+     docker-compose run artisan migrate
      ```
-
-
-
 
 
 
