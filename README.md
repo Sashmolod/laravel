@@ -63,7 +63,11 @@
    - Затем вернитесь к основному каталогу и выполните миграции:
 
      ```bash
-     docker-compose run artisan migrate
+     docker-compose run --rm artisan migrate
+     ```
+     - Затем фабрики:
+     ```bash
+     docker-compose run --rm artisan db:seed
      ```
 
 
